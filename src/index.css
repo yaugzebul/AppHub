@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+
+/*4. Vérifier l'import dans ton projet
+Assure-toi que ton fichier **`src/main.jsx`** contient bien l'import de ton fichier CSS. Il doit y avoir une ligne comme celle-ci en haut :
+```javascript
+   import './index.css' */

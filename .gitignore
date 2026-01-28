@@ -1,0 +1,27 @@
+Logs
+
+logs .log npm-debug.log yarn-debug.log* yarn-error.log* pnpm-debug.log* lerna-debug.log*
+
+Dépendances et Build
+
+node_modules dist dist-ssr *.local
+
+--- AJOUTS RECOMMANDÉS ---
+
+Sécurité (IMPORTANT : ne jamais envoyer tes clés API sur GitHub)
+
+.env .env.* !.env.example
+
+Fichiers système Windows / Mac
+
+.DS_Store Thumbs.db
+
+Fichiers temporaires Vite
+
+vite.config.js.timestamp-*
+
+--- FIN DES AJOUTS ---
+
+Editor directories and files
+
+.vscode/* !.vscode/extensions.json .idea *.suo .ntvs *.njsproj *.sln *.sw?
